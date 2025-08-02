@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ozan Akgün | Bağlantılar</title> <!-- burayı kendi adınızla değiştirmelisiniz  -->
+	<link rel="icon" href="profil.webp" type="image/x-icon">
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        
+        body {
+            background-color: #0d0d0d;
+            color: #fff;
+            font-family: 'Segoe UI', sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: flex-start;
+            min-height: 100vh;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 600px;
+            width: 100%;
+            text-align: center;
+        }
+        
+        img {
+            width: 160px;
+            height: 160px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 4px solid crimson;
+            margin-bottom: 20px;
+        }
+        
+        p {
+            font-size: 18px;
+            margin-bottom: 30px;
+            color: #bbb;
+        }
+        
+        .button {
+            display: flex;
+            align-items: center;
+            padding: 14px 20px;
+            margin: 10px 0;
+            border: none;
+            border-radius: 14px;
+            background-color: #1a1a1a;
+            color: #fff;
+            text-decoration: none;
+            transition: all 0.3s ease;
+            width: 100%;
+            box-shadow: 0 2px 5px rgba(255,0,0,0.2);
+            overflow: hidden;
+        }
+        
+        .button:hover {
+            background-color: crimson;
+            transform: scale(1.02);
+            box-shadow: 0 4px 10px rgba(255,0,0,0.4);
+        }
+        
+        .button i {
+            font-size: 22px;
+            margin-right: 15px;
+            width: 30px;
+            text-align: center;
+        }
+        
+        .button-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 100%;
+        }
+        
+        .label {
+            font-weight: bold;
+            text-align: left;
+        }
+        
+        .username {
+            font-size: 13px;
+            color: #ccc;
+            text-align: right;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            max-width: 120px;
+        }
+        
+        @media (max-width: 480px) {
+            body {
+                padding: 15px;
+            }
+            
+            img {
+                width: 120px;
+                height: 120px;
+            }
+            
+            p {
+                font-size: 16px;
+            }
+            
+            .button {
+                padding: 12px 15px;
+            }
+            
+            .button i {
+                font-size: 18px;
+                margin-right: 12px;
+            }
+            
+            .username {
+                max-width: 80px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img alt="Ozan Akgün" src="/profil.webp"> <!-- profil.jpg dosyasını kendi fotoğrafınız ile değiştirmeyi unutmayın -->
+
+        <p>Merhaba ben Ozan. Aşağıdan tüm sosyal medya hesaplarıma ulaşabilirsiniz.</p>
+        
+        <a class="button" href="https://ozanakgun.com.tr">
+            <i class="fas fa-globe"></i>
+            <div class="button-content">
+                <span class="label">OZANAKGUN.COM.TR</span>
+                <span class="username">@ozanakgun26</span>
+            </div>
+        </a>
+        
+        <a class="button" href="mailto:ozanakgun26@proton.me">
+            <i class="fas fa-envelope"></i>
+            <div class="button-content">
+                <span class="label">Proton Mail</span>
+                <span class="username">ozanakgun26</span>
+            </div>
+        </a>
+        
+        <a class="button" href="mailto:ozanakgun26@gmail.com">
+            <i class="fas fa-envelope"></i>
+            <div class="button-content">
+                <span class="label">Gmail</span>
+                <span class="username">ozanakgun26</span>
+            </div>
+        </a>
+        
+        <a class="button" href="https://instagram.com/ozanakgun26">
+            <i class="fab fa-instagram"></i>
+            <div class="button-content">
+                <span class="label">Instagram</span>
+                <span class="username">@ozanakgun26</span>
+            </div>
+        </a>
+        
+        <a class="button" href="https://facebook.com/ozanakgun26">
+            <i class="fab fa-facebook"></i>
+            <div class="button-content">
+                <span class="label">Facebook</span>
+                <span class="username">@ozanakgun26</span>
+            </div>
+        </a>
+        
+        <a class="button" href="https://api.whatsapp.com/send?phone=+905xxxxxxxx&text=mesajozanakgun26">
+            <i class="fab fa-whatsapp"></i>
+            <div class="button-content">
+                <span class="label">WhatsApp</span>
+                <span class="username">@ozanakgun26</span>
+            </div>
+        </a>
+        
+        <a class="button" href="https://t.me/ozanakgun26">
+            <i class="fab fa-telegram"></i>
+            <div class="button-content">
+                <span class="label">Telegram</span>
+                <span class="username">@ozanakgun26</span>
+            </div>
+        </a>
+        
+        <a class="button" href="https://twitter.com/ozanakgun26">
+            <i class="fab fa-twitter"></i>
+            <div class="button-content">
+                <span class="label">Twitter (X)</span>
+                <span class="username">@ozanakgun26</span>
+            </div>
+        </a>
+        
+        <a class="button" href="https://youtube.com/ozanakgun26">
+            <i class="fab fa-youtube"></i>
+            <div class="button-content">
+                <span class="label">YouTube</span>
+                <span class="username">@ozanakgun26</span>
+            </div>
+        </a>
+        
+        <a class="button" href="https://github.com/ozanakgun26">
+            <i class="fab fa-github"></i>
+            <div class="button-content">
+                <span class="label">GitHub</span>
+                <span class="username">@ozanakgun26</span>
+            </div>
+        </a>
+        
+        <a class="button" href="https://discord.com/ozanakgun26">
+            <i class="fab fa-discord"></i>
+            <div class="button-content">
+                <span class="label">Discord</span>
+                <span class="username">@ozanakgun26</span>
+            </div>
+        </a>
+        
+        <a class="button" href="https://open.spotify.com/user/ozanakgun2">
+            <i class="fab fa-spotify"></i>
+            <div class="button-content">
+                <span class="label">Spotify</span>
+                <span class="username">@ozanakgun26</span>
+            </div>
+        </a>
+        
+        <a class="button" href="#">
+            <i class="fab fa-pinterest"></i>
+            <div class="button-content">
+                <span class="label">Pinterest</span>
+                <span class="username">@ozanakgun26</span>
+            </div>
+        </a>
+        
+        <a class="button" href="https://www.reddit.com/ozanakgun26">
+            <i class="fab fa-reddit"></i>
+            <div class="button-content">
+                <span class="label">Reddit</span>
+                <span class="username">@ozanakgun26</span>
+            </div>
+        </a>
+        
+        <a class="button" href="https://steamcommunity.com/id/ozanakgun26/">
+            <i class="fab fa-steam"></i>
+            <div class="button-content">
+                <span class="label">Steam</span>
+                <span class="username">@ozanakgun26</span>
+            </div>
+        </a>
+        
+        <a class="button" href="https://store.epicgames.com/tr/u/757016116a48425b9f429cb600c4ede3">
+            <i class="fas fa-gamepad"></i>
+            <div class="button-content">
+                <span class="label">Epic Games</span>
+                <span class="username">@ozanakgun26</span>
+            </div>
+        </a>
+        
+    
+        
+       
+        
+       
+    </div>
+</body>
+</html>
